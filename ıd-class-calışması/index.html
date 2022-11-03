@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ıd-class-çalısması</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <style>
+    .img {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .nav {
+      background-color: rgb(93, 138, 42);
+      list-style-type: none;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+    }
+    .nav li {
+      display: inline-block;
+      font-size: 20px;
+      padding: 20px;
+    }
+    .latte-pıc {
+      width: 300px;
+      margin: auto; 
+      float: left; 
+    }
+    .clearfix::after{
+      content: "";
+      clear: both;
+      display: table;
+      
+    }
+    .americano-pıc{
+      width: 300px;
+      margin: auto; 
+      float: left;
+    }
+    .Türk-kahvesi-pıc{
+      width: 300px;
+      margin: auto; 
+      float: left;
+    }
+    
+
+    
+  </style>
+  <body>
+    <!-- BAŞLIKRESİM -->
+    <header>
+      <img class="img" src="header-coffie.jpg" alt="hea-picture" />
+    </header>
+
+    <!-- NAV-BAR BÖLÜMÜ -->
+    <article class="menu">
+      <ul class="nav">
+        <li><a id="ana-sayfa" href="#">Ana sayfa</a></li>
+        <li><a id="menü" href="#">menü</a></li>
+        <li><a id="iletişim" href="#">iletişim</a></li>
+      </ul>
+    </article>
+
+    <!-- KAHVE ÇEŞİTLERİ TANIMI-ADET=3 -->
+    <article>
+      <div class="clearfix" id="latte">
+          <h1>LATTE</h1>
+          
+          <p class="ıntel">
+          <img class="latte-pıc" src="latte.jpg" alt="latte-img">               
+          Latte, İtalyanca'da Süt anlamına gelmektedir. Asıl adı Caffe Latte  Machiatodur. Espresso, buharla ısıtılmış kıvamlı süt dolu bir kupaya   eklenir. Genellikle ince ve uzun bardakta servis edilir. İsteğe göre  üzerine süt köpüğü ve tatlı krema eklenir.
+          </p>        
+      </div>
+      <div class="clearfix" id="americano">
+        <h1>LATTE</h1>
+          
+          <p class="ıntel">
+          <img class="americano-pıc" src="americano.jpg" alt="americano-img">               
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tempora velit nam enim harum blanditiis facere, sit praesentium doloribus vel provident maiores fugit dicta hic error accusantium quasi distinctio voluptates ab! Voluptatum, rem facere. Ab mollitia velit neque maxime aperiam similique eveniet cum ad harum! Blanditiis, quas omnis. Saepe, molestiae.</p>  
+
+      </div>
+      <div class="clearfix" id="türk">
+        <h1>türk kahvesi</h1>
+          
+          <p class="ıntel">
+          <img class="Türk-kahvesi-pıc" src="türk-kahvesi.jpg" alt="türk-kahvesi-img">               
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tempora velit nam enim harum blanditiis facere, sit praesentium doloribus vel provident maiores fugit dicta hic error accusantium quasi distinctio voluptates ab! Voluptatum, rem facere. Ab mollitia velit neque maxime aperiam similique eveniet cum ad harum! Blanditiis, quas omnis. Saepe, molestiae.</p>  
+
+      </div>   
+    </article>
+    <!-- İLETİŞİM -->
+    <article>
+      <h1>iletişim</h1>
+      <h2>Non, quas?</h2>
+      <p>Lorem ipsum dolor sit.</p>      
+    </article>
+  </body>
+</html>
